@@ -1,0 +1,84 @@
+ 
+
+ 
+html {
+	overflow-x: hidden; 
+	overflow-y: scroll; 
+	-webkit-overflow-scrolling: touch;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+
+body, select, input, textarea { color: #000; }
+body{ font-size:83%; background:#e6eecc url(../img/beige_paper.png) repeat top left; font-family: 'Terminal Dosis', Arial, sans-serif;}
+
+
+a {
+	color: #000;
+}
+
+a:hover {
+    color: #da8b4c;
+}
+
+article {
+	display: inline-block;
+	margin: 20px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+small {
+	opacity: 0.6;
+	font-style: italic;
+	font-size: 14px;
+	margin-left: 5px;
+}
+#main { margin-left: auto; width: 95%
+
+}
+
+.header{ font-family: "Lobster Two", "Georgia", serif; margin-left: auto;
+    margin-right: auto;
+    width: 40%; }
+/**
+ * List used for the demo page
+ */
+ul {
+	position: relative;
+	width: 560px !important;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	list-style: none;
+	-webkit-perspective: 400px;
+	   -moz-perspective: 400px;
+	    -ms-perspective: 400px;
+	     -o-perspective: 400px;
+	        perspective: 400px;
+}
+	ul li {
+		position: relative;
+		padding: 16px;
+		background: #eee;
+		color: #252525;
+		font-size: 18px;
+		z-index: 2;
+                cursor: pointer;
+                background: #ff7202;
+		-webkit-transform: translateZ(0px);
+		   -moz-transform: translateZ(0px);
+		    -ms-transform: translateZ(0px);
+		     -o-transform: translateZ(0px);
+		        transform: translateZ(0px);
+	}
+	ul li:nth-child(odd) {
+		background: #fff;
+	}
