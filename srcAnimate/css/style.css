@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* 效果CSS开始 */
+body .txt{margin:80px 0;font-size:16px;text-align:center;}
+.dowebok{margin:0 auto;}
+.dowebok ul{list-style-type:none;}
+.dowebok .row{font-size:0;text-align:center;}
+.dowebok .wow{display:inline-block;width:280px;height:280px;margin:30px 15px 0;border-radius:50%;font:30px/280px "Microsoft Yahei";vertical-align:top;*display:inline;zoom:1;}
+.bg-green{background:#5bd5a0;}
+.bg-blue{background:#1daee9;}
+.bg-purple{background:#c843a5;}
+.bg-red{background:#eb3980;}
+.bg-yellow{background:#ffcc35;}
+/* 效果CSS结束 */
